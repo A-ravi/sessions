@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://cloudcomputing-ws2021.s3.ap-south-1.amazonaws.com/html-assets/order.html -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Coffee Shop | Order Portal</title>
+
+	<link rel="stylesheet" href="./index_files/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row justify-content-md-center">
+			<div class="col col-md-4">
+				<p class="h1 py-5 my-2 text-center">Coffee Shop | Order Portal</p>
+				<p class="h5 py-2 mb-5 text-center">Select a standard favourite or customize your own beverage!</p>
+				<p class="h4 py-2 mb-5 text-center" id="resulttext"></p>
+				<div class="accordian" id="card-85865">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<div class="card-link text-center" data-toggle="collapse" data-parent="#card-85865"
+								data-target="#card-element-35217" role="button" aria-expanded="true"
+								aria-controls="card-element-35217">Standard Beverages</div>
+						</div>
+						<div id="card-element-35217" class="collapse show" aria-labelledby="headingOne"
+							data-parent="#card-85865">
+							<div class="card-body">
+								<form id="standard">
+									<table class="table table-sm">
+										<tbody>
+											<tr>
+												<td>
+													<select id="std1" name="std1" class="custom-select mt-2">
+														<option selected="">Select Beverage</option>
+														<option value="Espresso">Espresso</option>
+														<option value="Americano">Americano</option>
+														<option value="Flat White">Flat White</option>
+														<option value="Doppio">Doppio</option>
+														<option value="Macchiato">Macchiato</option>
+														<option value="Cappuccino">Cappuccino</option>
+														<option value="Mocha">Mocha</option>
+														<option value="Affogato">Affogato</option>
+														<option value="Irish Coffee">Irish Coffee</option>
+														<option value="Iced Coffee">Iced Coffee</option>
+													</select>
+												</td>
+												<td>
+													<button type="submit" class="btn btn-primary mt-2">Submit</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="text-center muted">or</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<div class="card-link text-center" data-toggle="collapse" data-parent="#card-85865"
+								data-target="#card-element-523003" role="button" aria-expanded="false"
+								aria-controls="card-element-523003">Customize Your Beverage</div>
+						</div>
+						<div id="card-element-523003" class="collapse" aria-labelledby="headingTwo"
+							data-parent="#card-85865">
+							<div class="card-body">
+								<form id="customized">
+									<table class="table table-sm">
+										<tbody>
+											<tr>
+												<td>
+													<select id="ig1" name="ig1" class="custom-select">
+														<option selected="">Ingredient</option>
+														<option value="WR">Water</option>
+														<option value="IC">Ice</option>
+														<option value="MK">Milk</option>
+														<option value="FM">Foam</option>
+														<option value="SR">Sugar</option>
+														<option value="ES">Espresso</option>
+														<option value="CP">Chocolate Powder</option>
+														<option value="VI">Vanilla Ice-cream</option>
+														<option value="WY">Whiskey</option>
+													</select>
+												</td>
+												<td>
+													<select id="qty1" name="qty1" class="custom-select">
+														<option selected="">Quantity</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<select id="ig2" name="ig2" class="custom-select">
+														<option selected="">Ingredient</option>
+														<option value="WR">Water</option>
+														<option value="IC">Ice</option>
+														<option value="MK">Milk</option>
+														<option value="FM">Foam</option>
+														<option value="SR">Sugar</option>
+														<option value="ES">Espresso</option>
+														<option value="CP">Chocolate Powder</option>
+														<option value="VI">Vanilla Ice-cream</option>
+														<option value="WY">Whiskey</option>
+													</select>
+												</td>
+												<td>
+													<select id="qty2" name="qty2" class="custom-select">
+														<option selected="">Quantity</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<select id="ig3" name="ig3" class="custom-select">
+														<option selected="">Ingredient</option>
+														<option value="WR">Water</option>
+														<option value="IC">Ice</option>
+														<option value="MK">Milk</option>
+														<option value="FM">Foam</option>
+														<option value="SR">Sugar</option>
+														<option value="ES">Espresso</option>
+														<option value="CP">Chocolate Powder</option>
+														<option value="VI">Vanilla Ice-cream</option>
+														<option value="WY">Whiskey</option>
+													</select>
+												</td>
+												<td>
+													<select id="qty3" name="qty3" class="custom-select">
+														<option selected="">Quantity</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<select id="ig4" name="ig4" class="custom-select">
+														<option selected="">Ingredient</option>
+														<option value="WR">Water</option>
+														<option value="IC">Ice</option>
+														<option value="MK">Milk</option>
+														<option value="FM">Foam</option>
+														<option value="SR">Sugar</option>
+														<option value="ES">Espresso</option>
+														<option value="CP">Chocolate Powder</option>
+														<option value="VI">Vanilla Ice-cream</option>
+														<option value="WY">Whiskey</option>
+													</select>
+												</td>
+												<td>
+													<select id="qty4" name="qty4" class="custom-select">
+														<option selected="">Quantity</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<button type="submit" class="btn btn-primary mt-3 ml-3">Submit
+														Custom Order</button>
+												</td>
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./index_files/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="./index_files/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="./index_files/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+		crossorigin="anonymous"></script>
+
+
+	<script>
+		$("form").on("submit", function (event) {
+			event.preventDefault();
+			let sl = $(this).serializeArray();
+			let orderType = $(this).closest("form").attr('id');
+			let data = [];
+
+			if (orderType == "standard") {
+				if (sl[0].value != "Select Beverage") {
+					data = { order: sl[0].value };
+				}
+			} else if (orderType == "customized") {
+				$.each(sl, function (i, obj) {
+					if ((obj.name.startsWith("ig")) && (obj.value != "Ingredient")) {
+						if (sl[i + 1].value != "Quantity")
+							data.push({ itemcode: obj.value, quantity: sl[i + 1].value });
+					}
+				});
+				data = { order: "custom", ingredients: data };
+			}
+
+			console.log(JSON.stringify(data));
+			/*
+			
+				// TODO
+				// Put your code here
+			
+			*/
+			fetch("https://yps7cj592m.execute-api.us-east-1.amazonaws.com/prod/", {
+				method: "POST",
+				body: JSON.stringify(data),
+				headers: {
+					"Content-type": "application/json; charset=UTF-8"
+				}
+			})
+				.then((response) => response.json())
+				.then((json) => {console.log(json)
+					textbox = document.getElementById("resulttext").innerText = "Your Order for "+json.item+" is "+json.response+" and your bill is "+json.cost;
+		});
+
+		});
+	</script>
+
+</body>
+
+</html>
